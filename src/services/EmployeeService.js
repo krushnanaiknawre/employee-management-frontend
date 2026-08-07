@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8090";
+const BASE_URL = "https://employeemanagementsystem-zzct.onrender.com";
 
 export const getAllEmployees = () => {
     return axios.get(BASE_URL + "/getAllEmployees");
